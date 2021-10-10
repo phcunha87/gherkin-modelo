@@ -1,0 +1,30 @@
+#language : pt
+
+Funcionalidade: Cadastro de alunos
+
+    Essa funcionaliade tem como objetivo, realizar o cadastro de alunos
+    assim como, editr os dados do aluno e também remove-los
+
+
+ Cenario: Deve cadastrar aluno
+ Dado que estou na pagina de cadastros de alunos
+ Quando preencho todos os dados de forma correta
+ E realizo a submissão do cadastro no sistema
+ Entao o cadastro deve ser realizado e o aluno deve ser direcionado para a home
+
+
+ Cenario: Deve editar os dados do aluno
+ Dado que estou na tela de edição do dados do aluno
+ Quando realizo as edições necessárias
+ E realizo a submissão da edição ao sistema
+ Entao a edição deve ser realizada e os dados do aluno atualizadoa
+
+
+ Cenario: Deve remover aluno
+ Dado que o aluno esteja cadastrado no sistema
+ Quando realizo a submissão de remoção ao sistema
+ Entao a mensagem de confirmação de remoção deve ser apresentada
+ Entao confirmo a remoção
+ E verifico a existencia do aluno no banco de dados
+
+
